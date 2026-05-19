@@ -1,0 +1,31 @@
+baseURL: "https://www.marcinligeza.com/"
+languageCode: "en-us"
+title: "Marcin Ligeza"
+theme: "PaperMod"
+
+params:
+  author: "Marcin Ligeza"
+  description: "Software Engineer | C++ enthusiast | Tutorials and projects"
+  # Social links
+  socialIcons:
+    - name: github
+      url: "https://github.com/marcinligeza"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/marcin-ligeza/"
+  # Enable syntax highlighting (Hugo uses Chroma)
+  highlight:
+    style: "monokai"   # or "github", "dracula", etc.
+  # Home page profile mode (PaperMod specific)
+  profileMode:
+    enabled: true
+    title: "Hi, I'm Marcin Ligeza"
+    subtitle: "I write performant C++ and share what I learn."
+    # imageUrl: "/img/avatar.jpg"   # Create a static/img folder and add your photo
+    imageWidth: 200
+    imageHeight: 200
+
+# Syntax highlighting for all content
+markup:
+  highlight:
+    noClasses: false
+    # lineNos: true   # uncomment to show line numbers globally
