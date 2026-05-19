@@ -17,7 +17,7 @@ params:
     style: "monokai"   # or "github", "dracula", etc.
   # Home page profile mode (PaperMod specific)
   profileMode:
-    enabled: true
+    enabled: false
     title: "Hi, I'm Marcin Ligeza"
     subtitle: "I write performant C++ and share what I learn."
     # imageUrl: "/img/avatar.jpg"   # Create a static/img folder and add your photo
@@ -29,3 +29,18 @@ markup:
   highlight:
     noClasses: false
     # lineNos: true   # uncomment to show line numbers globally
+
+menu:
+  main:
+    - identifier: blog
+      name: Blog
+      url: /blog/
+      weight: 10
+    - identifier: projects
+      name: Projects
+      url: /projects/
+      weight: 20
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 30
