@@ -23,6 +23,19 @@ params:
     # imageUrl: "/img/avatar.jpg"   # Create a static/img folder and add your photo
     imageWidth: 200
     imageHeight: 200
+  giscus:
+    repo: "MarcinLigeza/marcinligeza-website"
+    repoId: "R_kgDOSiWYUw"
+    category: "Blog comments"
+    categoryId: "DIC_kwDOSiWYU84DAoS4"
+    mapping: "pathname"
+    strict: false
+    reactionsEnabled: true
+    emitMetadata: false
+    inputPosition: "bottom"
+    lang: "en"
+    theme: "preferred_color_scheme"
+    crossorigin: "anonymus"
 
 # Syntax highlighting for all content
 markup:
