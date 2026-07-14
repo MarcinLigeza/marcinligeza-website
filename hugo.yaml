@@ -35,7 +35,7 @@ params:
     inputPosition: "bottom"
     lang: "en"
     theme: "preferred_color_scheme"
-    crossorigin: "anonymus"
+    crossorigin: "anonymous"
 
 # Syntax highlighting for all content
 markup:
